@@ -1,0 +1,39 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #add;
+    margin-bottom: 20px;
+    color: rgb(5, 5, 99);
+  }
+  
+  .searchbar {
+    padding: 10px;
+    width: 350px;
+    color: rgb(5, 5, 99);
+    border: 1px solid #add;
+    
+  }
+  .searchbar::placeholder{
+    color: rgb(5, 5, 99);
+    font-weight: 900;
+    /* background-color: red; */
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 40px;
+    background-color: #add;
+  }
+  .profile>span{
+    color: rgb(5, 5, 99);
+    font-weight: 900;
+
+  }
+  

@@ -1,0 +1,38 @@
+nav{
+    height: 70px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.8);
+    display: flex;
+
+    align-items: center;
+    position: fixed;
+    z-index: 111;
+}
+nav>.nav1{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+nav>.nav1:hover{
+    color: brown;
+}
+h1{
+    text-decoration: none;
+}
+
+nav>.nav2{
+    width: 25%;
+    padding-left: 6%;
+}
+nav>.nav3{
+    width: 18%;
+}
+
+#links{
+    color:  #f3e0b5;
+    text-decoration: none;
+    cursor: pointer;
+}

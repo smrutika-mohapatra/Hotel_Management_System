@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hotel{
+    height: 279vh;
+    width: 100%;
+    /* background-color: black; */
+}
+button{
+    padding: 15px 50px;
+    background-color:   #beae88;
+    outline: none;
+    border: none;
+    font-weight: 900;
+     border-radius: 10px;
+     cursor: pointer;
+}
+button:hover{
+    box-shadow: 0px 5px 10px gray;
+   
+}
+.hotel>.part1{
+    height: 90vh;
+    width: 100%;
+ 
+}
+.overplay{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    /* background-color: red; */
+}
+.hotel>.part1>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.hotel>.part1>.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c4b491;
+}
+.hotel>.part1>.content>h2{
+    font-size: 2rem;
+}
+.hotel>.part1>.content>h1{
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+.hotel>.part2{
+    height: 90vh;
+    width: 100%;
+    /* margin-top: 30%; */
+ 
+}
+.hotel>.part2>h1{
+    text-align: center;
+    margin-top: -43%;
+    color: #c4b491;
+    font-size: 3.6rem;
+    color: rgb(250, 241, 187);
+}
+.hotel>.part2>img{
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    /* margin-top: -41px;  */
+}
+
+.hotel>.part2>.content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100%; */
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+.hotel>.part2>.content>div{
+    /* height: 70%; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-top: 60px; */
+    /* align-items: center; */
+    color: #beae88;
+
+}
+.hotel>.part2>.content>div>h1{
+    font-size: 2rem;
+}
+.hotel>.part2>.content>div>h4{
+    text-align: right;
+    margin: 20px;
+}
+.hotel>.part2>.content>div>p{
+    text-align: right;
+    line-height: 30px;
+}
+.hotel>.part2>.content>button{
+    margin-top: 65PX;
+}
+.hotel>.part3{
+    /* background-color: #beae88; */
+    background-image: url(https://cdn.vectorstock.com/i/500p/15/71/abstract-3d-luxury-black-color-wave-lines-vector-43391571.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-top: -20px;
+    /* opacity: 0.9; */
+}
+.hotel>.part3>div>h2{
+    padding:20px 0px;
+    font-size: 2.5rem;
+    color: #a4936c;
+    margin-left: 10%;
+}
+
+  
+.card {
+    flex-basis: 30%;
+    /* margin-bottom: 20px; */
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    background: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.171);
+   
+}
+.card1{
+     transition: transform 0.2s ease-in-out;
+}
+.card1:hover{
+    transform: scale(1.05);
+}
+#Btns{
+    background-color: rgb(203, 161, 109);
+    width: 130px;
+    height: 40px;
+    margin-left: 70px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+}
+.css-nrdprl-MuiTypography-root {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: white;
+    display: block;
+}

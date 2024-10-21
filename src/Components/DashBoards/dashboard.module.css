@@ -1,0 +1,21 @@
+.app {
+    display: flex;
+    background-color: gray;
+    height: 177vh;
+    
+  }
+ 
+  .maincontent {
+    width: 100%;
+    /* padding: 20px; */
+    height: 100vh;
+    
+  }
+  
+  .content {
+    display: flex;
+    position: relative;
+
+    justify-content: space-between;
+  }
+  

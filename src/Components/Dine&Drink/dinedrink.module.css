@@ -1,0 +1,95 @@
+.container{
+    width: 100%;
+    height: 175vh;
+    background: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* Container styling */
+.dinecontainer {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Page title styling */
+  .title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #beae88;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+  }
+  
+  /* Grid layout for items */
+  .dinegrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual item container */
+  .dineitem {
+    background-color: rgba(128, 128, 128, 0.324);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+   
+  }
+  
+  .dineitem:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Image styling */
+  .dineimage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* Info section styling */
+  .dineinfo {
+    padding: 20px;
+   
+  }
+  
+  .dinename {
+    font-size: 1.8rem;
+    color: #fae1aa;
+    margin-bottom: 10px;
+  }
+  
+  .dinetype {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #beb8b8;
+    margin-bottom: 15px;
+  }
+  
+  .dinedescription {
+    font-size: 1rem;
+    color: #beae88;
+    line-height: 1.6;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .dineitem {
+      margin-bottom: 20px;
+    }
+  
+    .title {
+      font-size: 2.5rem;
+    }
+  }
+  

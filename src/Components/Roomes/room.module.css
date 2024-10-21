@@ -1,0 +1,69 @@
+/* src/Room.css */
+
+.room {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    /* border: 20px solid red; */
+    
+  }
+
+  
+  .room:hover {
+    transform: scale(1.05);
+  }
+  
+  .roomImage {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+  .roomName {
+    font-size: 1.5rem;
+    margin: 16px 0 8px;
+    color: #333;
+  }
+  
+  .roomDescription {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 8px;
+    /* margin-left: 50px; */
+  }
+  
+  .roomPrice {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0b8476;
+    margin-bottom: 18px;
+  }
+/* src/Rooms.css */
+.rooms {
+    /* padding: 32px; */
+    /* background-color: #f7f7f7; */
+    text-align: center; 
+    height: 100vh;
+    background: linear-gradient(#264653,#beae88)
+    
+  }
+  
+  .rooms h1 {
+   padding-top: 80px;
+    font-size: 2.5rem;
+    margin-bottom: 22px;
+    color: #beae88;
+  }
+  
+  .roomsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+  }
+    

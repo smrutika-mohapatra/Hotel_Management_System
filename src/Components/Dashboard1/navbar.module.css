@@ -1,0 +1,26 @@
+.drawercontainer{
+    margin-bottom: 20px;
+}
+.drawercontainer>.menubutton{
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;
+} 
+.menuContainer{
+    /* background-color:black; */
+}
+.drawercontent{
+    width: 250px;
+    padding: 10px;
+    background-color: rgba(137, 43, 226, 0.534);
+    height: 100vh;
+}
+.drawercontent>.dropdown{
+    margin-top: 40px;
+}
+
+#Btn{
+    background:white;
+    width: 150px;
+
+}

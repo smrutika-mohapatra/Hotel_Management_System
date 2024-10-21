@@ -1,0 +1,38 @@
+.summarycards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 23%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(55, 157, 234);
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: rgb(5, 5, 99);
+  }
+  .card p{
+    color: rgb(150, 219, 219);
+    font-weight: 600;
+  }
+  
+  .card .status {
+    font-size: 30px;
+  }
+  
+  .card .up {
+    color: green;
+  }
+  
+  .card .down {
+    color: red;
+  }
+  

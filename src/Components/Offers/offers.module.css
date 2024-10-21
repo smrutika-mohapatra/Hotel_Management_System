@@ -1,0 +1,87 @@
+.container{
+    width: 100%;
+    height: 220vh;
+    background: linear-gradient(#264653,#beae88);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}/* Offers Page Container */
+.offerscontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 3rem;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  color: #beae88;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+/* Offers Grid */
+.offersgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Offer Item */
+.offeritem {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.offeritem:hover {
+  transform: translateY(-10px);
+}
+
+/* Offer Image */
+.offerimage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Offer Content */
+.offercontent {
+  padding: 20px;
+}
+
+.offertitle {
+  font-size: 1.8rem;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.offerdescription {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.offerbutton {
+  background-color: #b89153;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.offerbutton:hover {
+  background-color: #4a342e;
+}
